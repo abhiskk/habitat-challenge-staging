@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-python myagent/agent.py
+python myagent/forwardonly_agent.py
