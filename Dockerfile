@@ -1,4 +1,4 @@
-FROM darkstar112358/sample-submission:v2
+FROM darkstar112358/sample-submission:latest
 
 # install dependencies in the habitat conda environment
 RUN /bin/bash -c ". activate habitat; pip install torch"
