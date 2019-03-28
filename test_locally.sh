@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-docker run -v ${1}:/habitat-challenge-data \
+docker run -v ${CHALLENGE_DATA}:/habitat-challenge-data \
     --runtime=nvidia \
-    ${2} \
+    ${DOCKER_NAME} \
     /bin/bash -c \
     ". activate habitat; export CHALLENGE_CONFIG_FILE=/habitat-challenge-data/challenge_pointnav.local.yaml; bash submission.sh"
