@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-CHALLENGE_DATA=<default-value>
-DOCKER_NAME=<default-name>
+CHALLENGE_DATA="/path/to/habitat-challenge-data"
+DOCKER_NAME="sample-submission"
 
 while [[ $# -gt 0 ]]
 do
